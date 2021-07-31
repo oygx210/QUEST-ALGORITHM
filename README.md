@@ -9,5 +9,4 @@ Inputs:
 2) Vectors in both body and reference frames.
 3) Weightage of each vector.
 
-Output:
-!) Quaternion form of the attitude of satellite.
+Output: Quaternion form of the attitude of satellite.
