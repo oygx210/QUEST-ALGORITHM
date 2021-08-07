@@ -5,7 +5,7 @@ function rootval = root(r,b,w,k)
     a0 = sumweights (w,k);
     
     %Newton Raphson iterations.
-    while F(r,b,w,k,a0) > 0.001
+    while F(r,b,w,k,a0) > 0.1
         a0 = a0 - (F(r,b,w,k,a0)/Fprime(r,b,w,k,a0));
     end
     
